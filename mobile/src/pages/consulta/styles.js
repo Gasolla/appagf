@@ -1,0 +1,28 @@
+import { StyleSheet } from 'react-native';
+export default StyleSheet.create({
+	Principal:{padding: 20,  flex:1 },
+	BoxInicial:{flex:2, marginTop:20},
+	BoxRodape: {height: 40, justifyContent: "flex-end", borderRadius: 30, backgroundColor: "#FFF",  flexDirection:"column", alignContent:"center", marginHorizontal:20},
+    InputObjeto:{ width: 200, height: 40},
+    ButtonObjetoAtivo: {padding: 20, backgroundColor: "#363636", height: 40, opacity: 1, fontSize: 10},
+    ButtonObjetoInativo: {padding: 20, backgroundColor: "#363636", height: 40, opacity: 0.25, fontSize: 10},
+	ButtonLimparAtivo: {padding: 15, backgroundColor: "#3CB371", height: 40, opacity: 1},
+	ButtonLimparInativo: {padding: 15, backgroundColor: "#3CB371", height: 40, opacity: 0.25},
+    ButtonCancelar: {padding: 15, backgroundColor: "#FF6347", height: 40},
+	ButtonText: {color: "#FFF", fontWeight: "bold", fontSize: 20},    
+	tituloResultado: {alignItems: "center", justifyContent: "center"}, 
+	tituloResultadotexto: {fontSize: 24, color: "#4F4F4F", marginTop: 20, fontWeight: "bold"}, 
+	titulotexto: { marginLeft: 5, color: "#4F4F4F", fontWeight: "bold", fontSize: 18,}, 
+	resultadotexto: { marginRight: 5, color: "#4F4F4F", fontSize: 18,},
+	container: {flex: 1, backgroundColor: '#fff', alignItems: 'center', justifyContent: 'center', },
+	containerScanner: {flex: 1, flexDirection: 'column', justifyContent: 'flex-end'},
+	ButtonLeitor: {padding: 5, backgroundColor: "#363636", height: 35},
+	ButtonLeitorText: {color: "#FFF", fontWeight: "bold", fontSize: 16},  
+	ButtonTextErro: {color: "#F63535", fontWeight: "bold", fontSize: 20},
+	ButtonTransparentAtivo: {padding: 15, backgroundColor: "transparent", height: 40, marginHorizontal:5, opacity: 1},
+	spinnerTextStyle: { color: '#FFF'},
+	containerspinner: {flex: 1, justifyContent: 'center', alignItems: 'center', backgroundColor: '#F5FCFF'},
+	ButtonTextVoltar:{color: "#F63535", fontWeight: "bold", fontSize: 15},
+    ButtonVoltar:{ backgroundColor: "transparent", height: 20, marginHorizontal:5, opacity: 1},
+    
+});

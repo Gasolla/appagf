@@ -1,0 +1,42 @@
+import { StyleSheet, Dimensions } from 'react-native';
+
+const { width: winWidth, height: winHeight } = Dimensions.get('window');
+
+export default StyleSheet.create({
+    Principal:{padding: 20,  flex:1 },
+    BoxInicial:{flex:2, marginTop:20},
+    BoxRodape: {height: 40, borderRadius: 30, backgroundColor: "#FFF", justifyContent: "flex-end",  flexDirection:"column", alignContent:"center", marginHorizontal:20},
+    alignCenter: { flex: 1, alignItems: 'center', justifyContent: 'center',},
+    preview: { height: winHeight, width: winWidth, position: 'absolute', left: 0, top: 0, right: 0, bottom: 0,},
+    bottomToolbar: { width: winWidth, position: 'absolute', height: 100, bottom: 0, },
+    captureBtn: { width: 60, height: 60, borderWidth: 2, borderRadius: 60, borderColor: "#FFFFFF", },
+    captureBtnActive: { width: 80, height: 80, },
+    captureBtnInternal: { width: 76, height: 76, borderWidth: 2, borderRadius: 76, backgroundColor: "red", borderColor: "transparent",},
+    galleryContainer: { bottom: 100 },
+    galleryImageContainer: { width: 75,  height: 75, marginRight: 5 },
+    galleryImage: { width: 75, height: 75 },
+    container: {flex: 1, backgroundColor: '#fff', alignItems: 'center', justifyContent: 'center', },
+    ContainerStyle:{ padding: 5, width: '100%'},
+    TextInputStyle:{paddingHorizontal: 20 , borderWidth: 1, borderColor: '#ccc', borderRadius: 5, height: 40, fontSize: 20},
+    TextInputModal:{marginBottom: 10, borderWidth: 0, height: 23, fontSize: 20},
+    IconModal:{marginBottom: 10},
+    ItemStyle: { padding: 10, marginTop: 2, backgroundColor: '#363636', borderColor: '#FFF', borderWidth: 1, borderRadius: 5, },
+    ItemTextStyle: {color: '#FFF'},
+    ItemsContainerStyle: { maxHeight: 140},
+    TableborderStyle:{borderColor: 'transparent'},
+    ButtonLeitor: {padding: 5, backgroundColor: "#363636", height: 35},
+    ButtonLeitorText: {color: "#FFF", fontWeight: "bold", fontSize: 16},    
+    ButtonFinalizarAtivo: {padding: 15, backgroundColor: "#3CB371", height: 40, opacity: 1},
+    ButtonFinalizarInativo: {padding: 15, backgroundColor: "#3CB371", height: 40, opacity: 0.25},
+    ButtonColetaAtivo: {padding: 15, backgroundColor: "orange", height: 40, opacity: 1},
+    ButtonColetaInativo: {padding: 15, backgroundColor: "orange", height: 40, opacity: 0.25},
+    ButtonCancelar: {padding: 15, backgroundColor: "#FF6347", height: 40},
+    ButtonText: {color: "#FFF", fontWeight: "bold", fontSize: 20},
+    spinnerTextStyle: { color: '#FFF'},
+    containerspinner: {flex: 1, justifyContent: 'center', alignItems: 'center', backgroundColor: '#F5FCFF'},
+    ButtonTextErro: {color: "#F63535", fontWeight: "bold", fontSize: 20},
+    ButtonTransparentAtivo: {padding: 15, backgroundColor: "transparent", height: 40, marginHorizontal:5, opacity: 1},
+    ButtonTextVoltar:{color: "#F63535", fontWeight: "bold", fontSize: 15},
+    ButtonVoltar:{padding: 15, backgroundColor: "transparent", height: 20, marginHorizontal:5, opacity: 1},
+    
+});

@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "appagf",
+    "slug": "appagf",
+    "version": "1.0",
+    "orientation": "default",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#CCCCCC"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true, 
+      "bundleIdentifier": "com.grupomrs.appagf",
+      "buildNumber": "1.0.0"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }, 
+    "android": {
+      "package": "com.grupomrs.appagf",
+      "versionCode": 1,
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyDXtDR4ingn8lDix6VrHHPuBGQxLZzAaA0"
+        }
+      }
+    }
+  }
+}
