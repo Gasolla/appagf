@@ -4,10 +4,10 @@ module.exports = {
   development: {
     client: 'mssql',
     connection: {
-      "user": 'Coletor',
-      "password": 'Col@#2541MRS',
-      "server": 'http://mrs-sp.ddns.net:1433',
-      "database": 'ColetorMRS',
+      "user": '?',
+      "password": '?',
+      "server": '?',
+      "database": '?',
       "dialect": "mssql",
       "dialectOptions": {
         "instanceName": "SQLEXPRESS"
